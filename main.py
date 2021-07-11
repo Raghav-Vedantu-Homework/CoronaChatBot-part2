@@ -6,7 +6,6 @@ root = Tk()
 root.title("CoVin - Corona Info")
 bubbles = []
 
-
 canvas = Canvas(root, width=350, height=500,bg="lightgrey")
 canvas.grid(row=0,column=0,columnspan=3)
 bot = ChatBot('CoVin')
